@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilo.css">
+    <script src="/javascript.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>Construa</title>
+</head>
+<body>
+    <header id="topo" class="tent-um">
+        <h1 id="titulo">MUDE SEU SITE</h1>
+    </header>
+    
+ 
+        <section class="espaco">
+            <section class="espaco-box">
+                <p class="alt-p">Mude a cor de fundo</p>
+                
+                    <input type="radio" id="red" name="cor" checked>
+                    <label for="red">Vermelho</label>
+                    <input type="radio" id="blue" name="cor"/>
+                    <label for="blue">Azul</label>
+                    <input type="radio" name="cor"/>
+                    <label for="green">Verde</label><br>
+                    <button type="button" class="btn" id="btn-cor" onclick="cores()">Verificar</button>
+                
+            </section>
+        
+        <section class="espaco-box">
+            <p>Mude o tamanho da barra acima:</p>
+            
+            <input type="radio" name="tamanho" id="cem" checked/>
+            <label for="cem">100%</label>
+            <input type="radio" name="tamanho" id="setecinco"/>
+            <label for="setecinco">75%</label>
+            <input type="radio" name="tamanho" id="cinquenta"/>
+            <label for="cinquenta">50%</label><br>
+            <button type="button" class="btn" id="btn-barra" onclick="MudarTamanho()">Verificar</button>
+        </section>
+        <section class="espaco-box">
+            Altere o texto acima:
+            <input type="text" name="txt" id="txt" maxlength="20"/><br>
+            <button type="button" class="btn" id="btn-txt" onclick="MudarTexto()">Verificar</button>
+
+
+        </section>
+    </section>
+    <footer>
+        
+    </footer>
+</body>
+</html>
