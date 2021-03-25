@@ -1,0 +1,13 @@
+.cor{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+}
+.borda{
+    border: 1px solid black;
+}
+
+.alinhamento{
+    text-align: center;
+    margin:0;
+}

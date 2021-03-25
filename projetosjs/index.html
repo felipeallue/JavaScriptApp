@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/projetosjs/estilo.css">
+    <link rel="stylesheet" href="/projetos/node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="/projetos/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/projetos/node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="/projetosjs/comandos.js"></script>
+    <title>Teste de Passos</title>
+</head>
+<body class="bg-info">
+    <header>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col cor"> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6" id="conteudo">
+                    <div class="caixa shadow p-3 mb-5 bg-white rounded">
+                        <h1>Teste de contagem PA</h1>
+                            <form class="form-group">
+                                <div>
+                                    <label for="inicio">Inicio da contagem:</label>
+                                    <input type="number"  class=" form-control" name="inicio" id="txti">
+                                </div>
+                                    <label for="inicio">Final da contagem:</label>
+                                    <input type="number"  class=" form-control" name="fim" id="txtf">
+                                <div>
+                                    <label for="inicio">Razão</label>
+                                    <input type="number"  class=" form-control" name="passos" id="txtp">
+                                </div>
+                                <div><input type="button" value="Verificar"  class="mg-sup btn btn-info"onclick="verificar()"></div>
+                            </form>
+                            <div><p id="msg-top">Preencha todos o campos acima para obeter seu resultado</p></div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+    </header>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+.cor{
+    height: 100px;
+    margin-bottom: 50px;
+}
+.caixa {
+    background-color: #fff;
+
+    padding: 50px;
+    border-radius: 25px;
+}
+.caixa h1{
+    text-align: center;
+}
+.format{
+    padding-bottom: 10px;
+}
+.msg{
+    text-align: center;
+}
+.mg-sup{
+    margin-top: 20px;
+}

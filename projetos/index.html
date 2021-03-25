@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../projetos/node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <script src="../projetos/node_modules/jquery/dist/jquery.js"></script>
+    <script src="../projetos/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../projetos/node_modules/popper.js/dist/umd/popper.js"></script>
+    <link rel="stylesheet" href="../projetos/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+        <div><img src="/projetos/img/logo.jpg"></div>
+        <div>
+            <nav>
+               <ul>
+                   <li><a class="btn btn-primary" href="#">Home</a></li>
+                   <li><a class="btn btn-primary" href="#">Sobre Nós</a></li>
+                   <li><a class="btn btn-primary" href="#">Configurações</a></li>
+                   <li><a class="btn btn-primary" href="#">Voltar</a></li>
+               </ul> 
+        </div>
+            </nav>
+            <div id="btn-topo">
+                <button class="btn btn-danger">Sair</button>
+            </div>
+        </div>
+    </header>
+    <div class="espaco"></div>
+    <section id="corpo-cadastro">
+        
+        <div class="esquerda">
+            <div class="div-botoes">
+            <div class=" btn btn-info" id='botao-login'>Login</div>
+            <div class="btn btn-info" id='botao-cadastro'>Cadastro</div>
+            </div>
+        </div>
+        <div class="direita">
+            <div class="card" id="card-tamanho">
+            <div class="card-body">
+            <form >
+                <div class="form-group ">
+                <label for="login-cx">Login:</label><br>
+                <input type="text" class="form-control-1" name="login-cx" id="login-cx" maxlength="50" placeholder="Login de Acesso">
+                </div>
+                <div class="form-group ">
+                <label for="senha-cx>">Senha: </label><br>
+                <input type="password" class="form-control-1" name="senha-cx" id="senha-cx" maxlength="50" placeholder="Senha de Acesso">
+                </div>
+                <div>
+                <button class="btn btn-info lado">Entrar</button>
+                </div>
+            </form>
+            </div>
+            </div>
+        </div>
+    </section>
+    </body>
+
+</body>
+</html>
